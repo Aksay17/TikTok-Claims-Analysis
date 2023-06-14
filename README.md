@@ -16,7 +16,7 @@ TikTok has become a popular social media platform where users share short videos
 
 ## Data Source
 
-The data used for this analysis is sourced from Google's certification Getting Started with Python. It consists of a large collection of TikTok posts, including metadata such as video descriptions, hashtags, user information, engagement metrics, and more.
+The data used for this analysis is sourced from Google's certification Getting Started with Python. It consists of a large collection of TikTok posts, including claim_status, video_id, video_duration, video_transcription_text, verified_status, author_ban_status, e.t.c.
 
 ## Insights
 
@@ -27,9 +27,7 @@ likes, and shares than videos by non-banned authors. However, when a video does 
 engagement rate is less related to author ban status and more related to its claim status.
 
 Also, we know that claim videos have a higher view rate than opinion videos, but this tells us that
-claim videos also have a higher rate of likes on average, so they are more favorably received as well.
-
-Furthermore, they receive more engagement via comments and shares than opinion videos.
+claim videos also have a higher rate of likes on average, so they are more favorably received as well. Furthermore, they receive more engagement via comments and shares than opinion videos.
 
 Note that for claim videos, banned authors have slightly higher likes/view and shares/view rates
 than active authors or those under review. However, for opinion videos, active authors and those
